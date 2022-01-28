@@ -220,7 +220,7 @@
                 {
                     "name": "",
                     "id": "a1364ea0-b3dd-4db1-944b-af061de193a1",
-                    "path": "",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "PlayerKBM",
@@ -300,12 +300,12 @@
                 },
                 {
                     "devicePath": "<Mouse>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 },
                 {
                     "devicePath": "<Mouse>",
-                    "isOptional": false,
+                    "isOptional": true,
                     "isOR": false
                 }
             ]
