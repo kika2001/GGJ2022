@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 37268889886319533, guid: 63e4a4f62541492409325ea4e1aeefd7, type: 3}
   type: 1
-  maxAmmo: 30
+  maxAmmo: 7
   lifeOnMax: 10
   fireRate: 3
-  playerDamage: 2
-  enemyDamage: 2
+  playerDamage: 10
+  enemyDamage: 10
   drawTime: 3
   bullet: {fileID: 2701291693038928733, guid: 4de4cf0691122b14a9e6db349cf97061, type: 3}
