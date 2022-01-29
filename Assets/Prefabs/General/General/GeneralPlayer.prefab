@@ -44,9 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 773cc840f3186c64ebd4245dcd8901f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnitPossesed: {fileID: 0}
+  teste: {fileID: 0}
+  ManaSlider: {fileID: 0}
+  Indicator: {fileID: 0}
   _mana: 0
   MaxMana: 100
-  ManaRestorePerSecond: 0.5
+  ManaRestorePerSecond: 2
 --- !u!114 &2224607019767589914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: d58201ae80bb517428ab6d4418c0057a, type: 3}
-  m_NotificationBehavior: 3
+  m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -71,9 +75,45 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Slayer
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 148de380-405b-49f5-9437-aaa6a7193af5
+    m_ActionName: Slayer/Melee[/Keyboard/f]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 19e87143-8cf4-481a-a219-65baf52e90d4
+    m_ActionName: Slayer/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 39e3e6e7-df5a-4242-9808-d7920087e234
+    m_ActionName: Slayer/Roll[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e02bb135-b66d-4830-a0bf-5395cffe170d
+    m_ActionName: Slayer/PickUp[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f8af0c84-ca82-4284-bd63-f40db89d3020
+    m_ActionName: Slayer/Shoot[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2224607019767589915}
+        m_TargetAssemblyTypeName: General, Assembly-CSharp
+        m_MethodName: OnFire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_ActionId: 14c0754e-ab1c-4f02-8120-35b174e775c5
+    m_ActionName: General/Fire[/Mouse/leftButton]
+  m_NeverAutoSwitchControlSchemes: 1
+  m_DefaultControlScheme: PlayerKBM
+  m_DefaultActionMap: General
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
