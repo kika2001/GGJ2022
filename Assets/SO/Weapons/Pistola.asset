@@ -20,4 +20,5 @@ MonoBehaviour:
   playerDamage: 10
   enemyDamage: 10
   drawTime: 3
+  iconSprite: {fileID: 21300000, guid: b29a84d2dfb466c46b8348ddefe86113, type: 3}
   bullet: {fileID: 2701291693038928733, guid: 4de4cf0691122b14a9e6db349cf97061, type: 3}
