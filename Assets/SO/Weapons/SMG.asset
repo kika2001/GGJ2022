@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e294b392a4b2464bb4db0cf00bff4f6, type: 3}
-  m_Name: Pistola
+  m_Name: SMG
   m_EditorClassIdentifier: 
-  prefab: {fileID: 37268889886319533, guid: 63e4a4f62541492409325ea4e1aeefd7, type: 3}
-  type: 1
-  maxAmmo: 7
-  lifeOnMax: 10
-  fireRate: 3
-  playerDamage: 10
+  prefab: {fileID: 37268889886319533, guid: e472785c7975c7243a083c697495ad16, type: 3}
+  type: 2
+  maxAmmo: 20
+  lifeOnMax: 25
+  fireRate: 10
+  playerDamage: 5
   enemyDamage: 10
-  drawTime: 0.5
-  iconSprite: {fileID: 21300000, guid: b29a84d2dfb466c46b8348ddefe86113, type: 3}
+  drawTime: 0.3
+  iconSprite: {fileID: 21300000, guid: 29f893af19b05bb48be216d856f93000, type: 3}
   bullet: {fileID: 2701291693038928733, guid: 4de4cf0691122b14a9e6db349cf97061, type: 3}
