@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 687770fea85c359419a0fb9d1d6d2a76
+guid: 47875b2bb09937e45900304f39ef8c5b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 570659783519926023
-    second: Jam_melee_0
+      213: 5357581375857002779
+    second: Jam_Walking_0
   - first:
-      213: -8037080287686169983
-    second: Jam_melee_1
-  - first:
-      213: -2269223568507652229
-    second: Jam_melee_2
-  - first:
-      213: 475089873030637985
-    second: Jam_melee_3
+      213: -3841998642634556313
+    second: Jam_Walking_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,125 +93,47 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jam_melee_0
+      name: Jam_Walking_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 64
-        width: 45
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.53697705, y: 0.52079976}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7077e44bc046be700800000000000000
-      internalID: 570659783519926023
+      spriteID: b19843b20e3f95a40800000000000000
+      internalID: 5357581375857002779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jam_melee_1
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 64
-        width: 45
-        height: 64
-      alignment: 9
-      pivot: {x: 0.56655884, y: 0.52079976}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18aeb258f0e867090800000000000000
-      internalID: -8037080287686169983
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jam_melee_2
+      name: Jam_Walking_1
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.6497569, y: 0.5155998}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b773823ff291280e0800000000000000
-      internalID: -2269223568507652229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jam_melee_3
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 0
-        width: 45
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5554657, y: 0.52859956}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a9606ee8bbd79600800000000000000
-      internalID: 475089873030637985
+      spriteID: 76cfb3e179a7eaac0800000000000000
+      internalID: -3841998642634556313
       vertices: []
       indices: 
       edges: []
